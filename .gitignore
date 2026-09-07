@@ -1,0 +1,6 @@
+# Security
+.env
+.env.*
+
+# Structure & IDE
+*.idea/
