@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "stratumss": "github:reubqnL/StratumSS#v1.1.0"
+  },
+  "scripts": {
+    "css": "./build-css.sh"
+  }
+}

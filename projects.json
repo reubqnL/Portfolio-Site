@@ -1,0 +1,52 @@
+[
+  {
+    "title": "The Old Ivy Shed",
+    "description": "A demo website for a family-friend coffee shop",
+    "image": {
+      "href": "../assets/images/oldIvy"
+    },
+    "link": {
+      "href": "https://"
+    }
+  },
+  {
+    "title": "Sheffield Plumbing Services",
+    "description": "A demo website for a local plumbing company",
+    "image": {
+      "href": "../assets/images/plumbingService"
+    },
+    "link": {
+      "href": "https://"
+    }
+  },
+  {
+    "title": "Bran and Birdy's",
+    "description": "An upcoming, all-natural pet food start-up based in Belfast, Northern Ireland, that specializes in creating nutritious bone broth gravy toppers for dogs",
+    "image": {
+      "href": "../assets/images/branAndBirdys"
+    },
+    "link": {
+      "href": "https://branandbirdys.com"
+    }
+  },
+  {
+    "title": "The Traveller Movement",
+    "description" : "Advocating for and working with Gypsy, Roma and Traveller people to tackle discrimination and promote equality.",
+    "image": {
+      "href": "../assets/images/tmOnline"
+    },
+    "link": {
+      "href": "https://travellermovement.org.uk"
+    }
+  },
+  {
+    "title" : "By She Africa",
+    "description" : "Connecting Africa's women-owned businesses to opportunities, resources, networks, sustainable partnerships and global markets",
+    "image" : {
+      "href" : "../assets/images/bySheAfrica"
+  },
+    "link" : {
+      "href" : "https://www.bysheafrica.com"
+    }
+  }
+]

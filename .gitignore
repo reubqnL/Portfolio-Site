@@ -2,5 +2,10 @@
 .env
 .env.*
 
+# Privacy
+dev/
+
 # Structure & IDE
 *.idea/
+node_modules/
+dist/

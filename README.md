@@ -31,7 +31,3 @@ There is no set end date for this project, I want
 to be 100% confident with my portfolio code and
 for people to understand that my work is not a
 wasteland of AI code.
-
-Note to self
-
-07/09/2026
