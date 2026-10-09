@@ -1,8 +1,18 @@
 {
   "devDependencies": {
-    "stratumss": "github:reubqnL/StratumSS#v1.1.0"
+    "@vitejs/plugin-react": "^6.1.2",
+    "stratumss": "github:reubqnL/StratumSS#v1.1.0",
+    "vite": "^8.3.4"
   },
   "scripts": {
-    "css": "./build-css.sh"
+    "css": "./build-css.sh",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "motion": "^14.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }
