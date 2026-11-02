@@ -3,7 +3,7 @@
 .env.*
 
 # Privacy
-dev/
+/dev/
 
 # Structure & IDE
 *.idea/
