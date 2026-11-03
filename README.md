@@ -1,33 +1,43 @@
-# PORTFOLIO PROJECT | REWORK
+# Portfolio Project | Rewritten
+
+A complete rewrite of my personal developer portfolio site.
 
 ---
 
-## The problem & solution
-As an upcoming Junior Web Developer, I need a 
-portfolio site that I can create by myself to 
-reflect my skills as a web developer / designer.
+## Problem & Objective
 
-I enjoy the style of my old (current) site however
-I went too far with using AI as a tool to the point
-where I am not abe to understand the JavaScript and
-some CSS components (Media Queries).
+As an aspiring Junior Web Developer, having a strong portfolio was very important. However my old portfolio while aesthetically pleasing was heavily reliant on AI tools which meant the code, including complex JavaScript and complex CSS Media Queries were hard to fully understand and use on my own.
 
-I intend this project to solely be my own work to
-reflect my personal skills, and to only use outside
-tools such as:
-- Webkits
-- AI
+My Goal:
 
-When I intend to develop my skills further and 
-understand new ways of working. By the end of this
-project, I want to be able to not only understand,
-but to re-write and reproduce my JavaScript code
-in future projects. I want to use languages that
-I'm not fully comfortable with to enhance my
-learning and suitability for a web development
-career. 
+This portfolio has been completely rewritten from scratch, meaning all the code within this repo was created using my real knowledge and skills.
 
-There is no set end date for this project, I want
-to be 100% confident with my portfolio code and
-for people to understand that my work is not a
-wasteland of AI code.
+Moving forward I will only use external tools such as AI and UI kits to help me learn when I am trying to apply new concepts.
+
+---
+
+## Objectives
+
+Full Ownership Of Code: I can fully explain, rewrite and reproduce everything.
+
+Complete Understanding: I have a complete understanding of web techiniques. Including Responsive Design & CSS Media Queries and Vanilla JS DOM Manipulation.
+
+Push Myself: I will push myself out of my comfort zone to learn new skills.
+
+Clean Code: I have created a clean codebase to show that the work I have done is my own.
+
+---
+
+## Technologies & What I Will Be Learning
+
+HTML5: Semantics & Accessibility.
+
+CSS3: Custom Layouts, Responsive Design & CSS Media Queries.
+
+JavaScript (Vanilla ES6+): Clean Scripting & UI Components.
+
+---
+
+## Current Status & Timeframe
+
+This is an ongoing project that I will be working on at my own pace. I will not be rushing to finish this project and will only consider it complete once I am 100% confident with the code.

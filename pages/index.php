@@ -1,26 +1,15 @@
 <?php
 $pageTitle = "Web Solutions";
 $pageDescription = "Portfolio of Reuben Cheetham - Junior Web Developer in the United Kingdom";
-$stratumCSS  = "../css/stratum/index.css";
-$pageCSS = "css/index.css";
+$pageCSS = "../assets/css/index.css";
 
-require __DIR__ . "/../components/header.php"; // Thank you Leif
+require_once __DIR__ . '/../partials/header.php';
 ?>
 <body>
 <main>
-<div class="hero-container flex fdirection-column">
-    <span>
-        <p class="color-#606878FF" id="freelanceBar">Available for freelance projects</p>
-    </span>
-    <h1 class="color-white">
-        Reuben C.
-    </h1>
-    <h2 class="color-#606878FF">
-        Freelance Web Developer<span class="color-#00AAFFFF">.</span>
-    </h2>
-</div>
+    <h1>Hello</h1>
 </main>
 
-<?php require __DIR__ . "/../components/footer.php"; ?>
+<?php require_once __DIR__ . '/../partials/footer.php'; ?>
 </body>
-<script src="../scripts/index.js"></script>
+<script src="../assets/scripts/index.js"></script>

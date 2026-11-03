@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background.jpg");
+  /* Dims background / adds a dark overlay */
+  background-size: cover;
+  filter: blur();
+}
+
+/*# sourceMappingURL=global.css.map */

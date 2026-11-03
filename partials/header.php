@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
     <meta charset="utf-8">
-    <title>Reuben C | <?php echo $pageTitle ?></title>
+    <title><?php echo $pageTitle ?> | Reuben C</title>
 
     <!-- SEO -->
 
@@ -12,11 +12,10 @@
     <meta name='keywords' content="Portfolio, Student, Junior, Web Developer, Web Dev">
     <meta name="topic" content="Web Development">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#"> <!-- ADD THEME -->
+    <meta name="theme-color" content="#f1ece3">
 
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="/<?php echo trim($pageCSS); ?>">
-    <link rel="stylesheet" href="/<?php echo trim($stratumCSS); ?>">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="<?php echo trim($pageCSS) ?>">
     <link rel="canonical" href="https://reubenc.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
