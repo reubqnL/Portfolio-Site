@@ -58,7 +58,6 @@
     </script>
 
 </head>
-</html>
 
 <!-- Lindi chose number 2 -->
 <!-- Happy chose number 7 -->
