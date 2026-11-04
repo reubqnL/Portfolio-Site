@@ -10,6 +10,6 @@ require_once __DIR__ . '/../partials/header.php';
     <h1>Hello</h1>
 </main>
 
-<?php require_once __DIR__ . '/../partials/footer.php'; ?>
-</body>
 <script src="../assets/scripts/index.js"></script>
+
+<?php require_once __DIR__ . '/../partials/footer.php'; ?>
