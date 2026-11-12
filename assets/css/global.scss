@@ -1,3 +1,14 @@
+html, body {
+    overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
 body {
     background-color: #f1ece3;
     margin: 0;
@@ -5,8 +16,7 @@ body {
 }
 
 main {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background.jpg");
-    /* Dims background / adds a dark overlay */
+    background: url("../images/Background.jpg");
     background-size: cover;
     min-height: 100vh;
 }

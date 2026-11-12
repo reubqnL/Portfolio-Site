@@ -4,7 +4,7 @@ $font-heading: "Roboto Mono", sans-serif;
 /* Header */
 .header {
   background-color: #f1ece3;
-  padding: 25px 0 5px 25px;
+  padding: 20px 0 5px 20px;
 
   display: flex;
   align-items: center;
@@ -14,12 +14,12 @@ $font-heading: "Roboto Mono", sans-serif;
 .name {
   font-family: "Newsreader", Georgia, serif;
   font-size: 1.5rem;
-  font-weight: 525;
-  letter-spacing: -0.06em;
+  font-weight: 500;
+  letter-spacing: -0.08em;
   line-height: 1;
   text-decoration: none;
   color: inherit;
-  margin-left: 25px;
+  margin-left: 45px;
 
   &-accent {
     color: #a94f2f;
@@ -36,6 +36,6 @@ $font-heading: "Roboto Mono", sans-serif;
     text-indent: 25px;
 
     font-family: $font-primary;
-    font-size: 13px;
+    font-size: 12px;
   }
 }
