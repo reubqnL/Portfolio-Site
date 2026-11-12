@@ -1,32 +1,32 @@
+<?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
     <meta charset="utf-8">
-    <title><?php echo $pageTitle ?> | Reuben C</title>
+    <title><?php echo htmlspecialchars($pageTitle ?? 'Portfolio'); ?> | Reuben C</title>
 
     <!-- SEO -->
-
-    <meta name="viewport" content='width=device-width, initial-scale=1'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Reuben Cheetham">
-    <meta name="description" content="<?php echo $pageDescription ?>">
-    <meta name='keywords' content="Portfolio, Student, Junior, Web Developer, Web Dev">
+    <meta name="description" content="<?php echo htmlspecialchars($pageDescription ?? ''); ?>">
+    <meta name="keywords" content="Portfolio, Student, Junior, Web Developer, Web Dev">
     <meta name="topic" content="Web Development">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#f1ece3">
 
     <link rel="stylesheet" href="../assets/css/global.css">
-    <link rel="stylesheet" href="<?php echo trim($pageCSS) ?>">
+    <?php if (!empty($pageCSS)): ?>
+        <link rel="stylesheet" href="<?php echo htmlspecialchars(trim($pageCSS)); ?>">
+    <?php endif; ?>
     <link rel="canonical" href="https://reubenc.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
     <meta property="og:title" content="Reuben Cheetham - Junior Web Developer Portfolio">
     <meta property="og:description" content="Portfolio of Reuben Cheetham - Junior Web Developer in the United Kingdom">
-    <meta name='language' content='English'>
+    <meta name="language" content="English">
     <meta property="og:image" content="https://reubenc.com/preview-image.jpg">
     <meta property="og:url" content="https://reubenc.com">
     <meta property="og:type" content="website">
@@ -57,17 +57,16 @@
         }
     </script>
 </head>
-
 <body>
 
 <nav class="header">
     <a href="/pages/index.php" class="name">reuben<span class="name-accent">c.</span></a>
     <span class="nav-container">
-        <a href="/pages/index.php" class="nav-link">home</a>
-        <a href="/pages/about.php" class="nav-link">about</a>
-        <a href="/pages/work.php" class="nav-link">work</a>
-        <a href="/pages/contact.php" class="nav-link">contact</a>
-        <a href="/pages/services.php" class="nav-link">services</a>
+        <a href="/pages/index.php" class="nav-link <?php echo ($currentPage === 'index.php') ? 'active' : ''; ?>">home</a>
+        <a href="/pages/about.php" class="nav-link <?php echo ($currentPage === 'about.php') ? 'active' : ''; ?>">about</a>
+        <a href="/pages/work.php" class="nav-link <?php echo ($currentPage === 'work.php') ? 'active' : ''; ?>">work</a>
+        <a href="/pages/contact.php" class="nav-link <?php echo ($currentPage === 'contact.php') ? 'active' : ''; ?>">contact</a>
+        <a href="/pages/services.php" class="nav-link <?php echo ($currentPage === 'services.php') ? 'active' : ''; ?>">services</a>
     </span>
 </nav>
 

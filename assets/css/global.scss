@@ -8,7 +8,11 @@ main {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background.jpg");
     /* Dims background / adds a dark overlay */
     background-size: cover;
-    filter: blur();
-
     min-height: 100vh;
+}
+
+.nav-link.active {
+    color: #a94f2f !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
