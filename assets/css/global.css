@@ -1,8 +1,15 @@
 body {
+  background-color: #f1ece3;
+  margin: 0;
+  padding: 0;
+}
+
+main {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Background.jpg");
   /* Dims background / adds a dark overlay */
   background-size: cover;
   filter: blur();
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=global.css.map */

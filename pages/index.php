@@ -5,7 +5,6 @@ $pageCSS = "../assets/css/index.css";
 
 require_once __DIR__ . '/../partials/header.php';
 ?>
-<body>
 <main>
     <h1>Hello</h1>
 </main>

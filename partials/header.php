@@ -56,8 +56,20 @@
             "knowsAbout": ["HTML", "CSS", "JavaScript", "UI/UX Design", "Web Development"]
         }
     </script>
-
 </head>
+
+<body>
+
+<nav class="header">
+    <span class="name">reuben<span class="name-accent">c.</span></span>
+    <span class="nav-container">
+        <a href="/pages/index.php" class="nav-link">home</a>
+        <a href="/pages/about.php" class="nav-link">about</a>
+        <a href="/pages/work.php" class="nav-link">work</a>
+        <a href="/pages/contact.php" class="nav-link">contact</a>
+        <a href="/pages/services.php" class="nav-link">services</a>
+    </span>
+</nav>
 
 <!-- Lindi chose number 2 -->
 <!-- Happy chose number 7 -->
