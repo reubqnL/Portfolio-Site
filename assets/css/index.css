@@ -2,6 +2,34 @@
 .header {
   background-color: #f1ece3;
   padding: 25px 0 5px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  text-decoration: none;
+  color: inherit;
+}
+.name-accent {
+  color: #a94f2f;
+}
+
+.nav-container {
+  display: flex;
+  margin-right: 60px;
+}
+.nav-container a {
+  text-decoration: none;
+  color: inherit;
+  text-indent: 25px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -61,7 +61,7 @@
 <body>
 
 <nav class="header">
-    <span class="name">reuben<span class="name-accent">c.</span></span>
+    <a href="/pages/index.php" class="name">reuben<span class="name-accent">c.</span></a>
     <span class="nav-container">
         <a href="/pages/index.php" class="nav-link">home</a>
         <a href="/pages/about.php" class="nav-link">about</a>
